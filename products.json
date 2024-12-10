@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "name": "Vape Mod 1",
+    "price": 29.99,
+    "image": "assets/images/vape1.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Vape Mod 2",
+    "price": 39.99,
+    "image": "assets/images/vape2.jpg"
+  }
+]
