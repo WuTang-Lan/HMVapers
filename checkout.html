@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout</title>
+    <link rel="stylesheet" href="../styles/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <!-- Navigation Bar -->
+        </nav>
+    </header>
+    <main>
+        <h1>Checkout</h1>
+        <form action="/process-payment" method="POST">
+            <!-- Payment Details -->
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="payment">Payment Method:</label>
+            <select id="payment" name="payment">
+                <option value="mpesa">Mpesa</option>
+                <option value="card">Credit/Debit Card</option>
+            </select>
+            <button type="submit">Pay Now</button>
+        </form>
+    </main>
+    <footer>
+        <!-- Footer Content -->
+    </footer>
+</body>
+</html>
